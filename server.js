@@ -16,7 +16,7 @@ cloudinaryConnect();
 // Middlewares
 app.use(express.json());
 app.use(cors());
-app.use("/status", async (req, res) => {
+app.get("/status", async (req, res) => {
   res.json({ msg: "working fine!!!" });
 });
 app.use(
