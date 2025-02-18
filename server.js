@@ -35,7 +35,7 @@ app.use("/api/v1/check", chekRoutes);
 app.use("/api/v1/reservation", reserveRoutes);
 app.use("/api/v1/payments", paymentRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 // Create and configure server
 const server = app.listen(PORT, () => {

@@ -1,4 +1,3 @@
-const express = require("express")
 const { db } = require("../Config/db")
 const { sendOtpEmail } = require("../Middleware/mail")
 
