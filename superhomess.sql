@@ -386,7 +386,6 @@ CREATE TABLE `userdata` (
   `email` varchar(255) NOT NULL,
   `phone_number` varchar(15) DEFAULT NULL,
   `password` varchar(255) NOT NULL,
-  `confirmPassword` varchar(255) NOT NULL,
   `role` varchar(50) DEFAULT 'user',
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
